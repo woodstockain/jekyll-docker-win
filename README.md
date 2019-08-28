@@ -26,14 +26,33 @@ Requires:
 
 - Run Script like any other bash script
   
-```sh
-$> sh jekylldocker.sh %COMMAND%
-```
+  ```sh
+    $> sh jekylldocker.sh %COMMAND%
+  ```
 
-## Notes
+### New Site / Repo
 
-## jekyll Docker Windows Helper script
+- Create Jekyll scaffold
+  
+  ```sh
+  $> sh jekylldocker.sh new
+  ```
 
-### Refs
+This runs 'jekyll new --blank' and the 'init' command
 
+### Existing Site / Repo
+
+- Add required config to project
+  
+  ```sh
+  $> sh jekylldocker.sh init
+  ```
+
+Creates '_config.docker-win.yml' required for serve
+
+## Commands
+
+## References Used
+
+<https://jekyllrb.com/docs/usage/|Jekyll CLI>
 <https://tonyho.net/jekyll-docker-windows-and-0-0-0-0/>
