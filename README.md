@@ -38,17 +38,16 @@ Requires:
 
 ### Existing Site / Repo
 
-- Add required config to project
-  
   ```sh
   $> sh jekylldocker.sh init
   ```
 
 ## Commands
 
-|| Command || Description ||
-| init | Creates `_config.docker-win.yml` required for serve |
-| new | This runs `jekyll new --blank` and the 'init' command |
+| Command | Description |
+|---------|-------------|
+| `init` | Creates `_config.docker-win.yml` required for serve |
+| `new` | This runs `jekyll new --blank` and the 'init' command |
 
 ## References Used
 
