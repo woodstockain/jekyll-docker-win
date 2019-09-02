@@ -48,6 +48,11 @@ Requires:
 |---------|-------------|
 | `init` | Creates `_config.docker-win.yml` required for serve |
 | `new` | This runs `jekyll new --blank` and the 'init' command |
+| `example` | This runs `jekyll new` and the 'init' command |
+| `build` | x |
+| `build-watch` | x |
+| `serve` | Serves the site locally on port 4000, with incremental build. `ENV=docker-win` |
+| `cli` | x |
 
 ## References Used
 
