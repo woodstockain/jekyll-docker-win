@@ -31,14 +31,10 @@ Requires:
   ```
 
 ### New Site / Repo
-
-- Create Jekyll scaffold
   
   ```sh
   $> sh jekylldocker.sh new
   ```
-
-This runs `jekyll new --blank` and the 'init' command
 
 ### Existing Site / Repo
 
@@ -48,12 +44,13 @@ This runs `jekyll new --blank` and the 'init' command
   $> sh jekylldocker.sh init
   ```
 
-Creates `_config.docker-win.yml` required for serve
-
 ## Commands
+
+|| Command || Description ||
+| init | Creates `_config.docker-win.yml` required for serve |
+| new | This runs `jekyll new --blank` and the 'init' command |
 
 ## References Used
 
-[Jekyll Documentation - Jekyll CLI](https://jekyllrb.com/docs/usage/)
-
-[This is Tony's Blog - Jekyll, Docker, Windows, and 0.0.0.0](https://tonyho.net/jekyll-docker-windows-and-0-0-0-0/)
+- [Jekyll Documentation - Jekyll CLI](https://jekyllrb.com/docs/usage/)
+- [This is Tony's Blog - Jekyll, Docker, Windows, and 0.0.0.0](https://tonyho.net/jekyll-docker-windows-and-0-0-0-0/)
